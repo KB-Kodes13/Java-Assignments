@@ -40,7 +40,7 @@ public class Regex {
         validateInput(identifier, identifierRegex, "Java Identifier");
 
         // Hexadecimal Color Code Validation
-        String colorCode = "#QFQfQk12"; // has move that 6 so it is not valid
+        String colorCode = "#QFQfQk12"; // has more that 6 so it is not valid
         String colorCodeRegex = "^#([A-Fa-f0-9]{6})$";
         validateInput(colorCode, colorCodeRegex, "Hexadecimal Color Code");
 
